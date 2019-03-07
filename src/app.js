@@ -16,7 +16,7 @@ const mongoose = config.dependencies.mongoose;
 const sqlDB = config.databases.sql;
 
 
-const BootstrapServer = async function() {
+const BootstrapServer = async () => {
 	// Log server details.
 	console.log('\u27F0 FOOTING.');
 	console.log('PORT: ' + config.server.port);
